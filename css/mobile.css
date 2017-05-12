@@ -1,0 +1,26 @@
+@media screen and  (min-width:320px) and (max-width:480px) {
+.ligaCelular{
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+.ligaNavegacion{
+  display: none;
+}
+.contenidoWeb{
+  display: none;
+}
+.video{
+  background-color: transparent;
+}
+.formulario{
+  background-color: #952D55;
+}
+.piePagina{
+  width: 40%;
+  padding-left: 30%;
+  padding-right: 30%;
+
+}
+
+}

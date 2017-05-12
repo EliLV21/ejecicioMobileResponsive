@@ -1,0 +1,131 @@
+*{
+  max-width: 1200px;
+  margin: 0;
+  padding: 0;
+}
+body{
+  width: 100%;
+  font-family: 'Raleway', sans-serif;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+}
+.navegador{
+  display: flex;
+  flex-direction: row;
+  padding: 2%;
+  background-color: #CC004F;
+  justify-content: center;
+}
+.ligaCelular{
+  width: 12%;
+  font-size: 70%;
+  padding: 2%;
+  display: none;
+}
+.ligaNavegacion{
+  width: 12%;
+  font-size: 70%;
+  padding: 2%;
+  background-color: #FF4C92;
+  border: 1px solid #7F0031;
+}
+.imagen{
+  margin-top: 2%;
+  background-image: url(https://image.freepik.com/vector-gratis/fondo-con-mandalas_1159-834.jpg);
+  display: flex;
+  justify-content: center;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+.textoImagen{
+  color: #fff;
+  font-size: 250%;
+  text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+}
+.contenidoWeb{
+  display: flex;
+  flex-direction: column;
+}
+.titulo{
+  font-size: 40px;
+  align-self: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.texto{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.imgTexto{
+  width: 40%;
+}
+.imgContenido{
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.contenidoTexto{
+  width: 60%;
+}
+#texto1{
+  padding-right: 10%;
+}
+#texto2{
+  padding-left: 10%;
+}
+.video{
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  background-color: #952D55;
+}
+iframe{
+  margin-bottom: 10%;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.formulario{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.formDatos{
+  width: 50%;
+  color: #BDBDBD;
+  border-color: transparent;
+  border-bottom: 1px solid #000;
+  margin-bottom: 3%;
+  /*margin-left: 25%;
+  margin-right: 25%;*/
+
+}
+.boton{
+  width: 15%;
+  align-self: flex-end;
+  font-size: 1em;
+  margin-right: 25%;
+  margin-bottom: 5%;
+  padding: 1%;
+  border-radius: 10px;
+  border: 1px solid #6E6E6E;
+}
+footer{
+  width: 100%;
+  background-color: #cc004f;
+  display: flex;
+  flex-direction: row;
+}
+.piePagina{
+  width: 30%;
+  align-self: center;
+  color: #fff;
+  font-size: 20px;
+  padding-left: 35%;
+  padding-right: 35%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
