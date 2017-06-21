@@ -28,8 +28,9 @@ body{
   width: 12%;
   font-size: 70%;
   padding: 2%;
-  background-color: #FF4C92;
-  border: 1px solid #7F0031;
+}
+a{
+  text-decoration:
 }
 .imagen{
   margin-top: 2%;
@@ -49,7 +50,7 @@ body{
   flex-direction: column;
 }
 .titulo{
-  font-size: 40px;
+  font-size: 2em;
   align-self: center;
   padding-top: 5%;
   padding-bottom: 5%;
@@ -63,9 +64,9 @@ body{
   width: 40%;
 }
 .imgContenido{
-  width: 50%;
-  margin-left: 25%;
-  margin-right: 25%;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 .contenidoTexto{
   width: 60%;
